@@ -1,3 +1,10 @@
+"""Task1
+"""
+
+the_string = "This is the string , the string , unique words , words in the string"
+the_dict = {word: the_string.count(word) for word in the_string.split()}
+
+print(the_dict)
 
 
 
