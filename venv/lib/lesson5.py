@@ -8,6 +8,7 @@ Constraints: use only while loop and random module to generate numbers
 import random
 
 num = [random.randint(0, 10)]
+i = 0
 while True:
     print(max(num))
     break
@@ -39,13 +40,11 @@ Constraint: use only while loop for iteration
 
 list100 = []
 for x in range(0, 100):
-    if (x%7==0) and (x%5==0):
+    if (x%7==0) and (x%5!=0):
         list100.append(str(x))
         result = (",".join(list100))
         result = list100
 print(result)
-
-
 
 
 

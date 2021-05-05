@@ -1,10 +1,14 @@
 """Task1
+Make a program that has some sentence (a string) on input and
+returns a dict containing all unique words as keys and the number of occurrences as values.
 """
 
 the_string = "This is the string , the string , unique words , words in the string"
 the_dict = {word: the_string.count(word) for word in the_string.split()}
 
 print(the_dict)
+
+
 
 
 
